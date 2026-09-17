@@ -1,0 +1,181 @@
+{
+  "sources": [
+    {
+      "source": "restored-latest/collab-core",
+      "revision": "4f84e15830bb6cfb0857ede16a27f79e4fd1593b",
+      "archiveSha256": null,
+      "files": [
+        {
+          "sourcePath": ".gitignore",
+          "destination": "packages/core/.gitignore",
+          "sha256": "19b23de57a80020117177f6f3a34b5b5ce98c2623a8e8e6e211453bbf6458bfa"
+        },
+        {
+          "sourcePath": "LICENSES/EUPL-1.2.txt",
+          "destination": "packages/core/LICENSES/EUPL-1.2.txt",
+          "sha256": "57fb42fbcd0b037ce528ed8f72f1ec095d67bc6825ecf1448ff39be1fe68a4b4"
+        },
+        {
+          "sourcePath": "README.md",
+          "destination": "packages/core/README.md",
+          "sha256": "fdcebac65cb9b7ecf31dcf51a0c9e95bc51dcb644cd324ecc5bacf240a3506d1"
+        },
+        {
+          "sourcePath": "REUSE.toml",
+          "destination": "packages/core/REUSE.toml",
+          "sha256": "a1da6d89efe0e228edd7d44f82630e0771c89b05d1c005520a1be1b1d40f54f6"
+        },
+        {
+          "sourcePath": "biome.json",
+          "destination": "packages/core/biome.json",
+          "sha256": "aef412798f637cd348188f1071fb1ea7c01c5e4bb3de8cd878a25f4dd4a5173d"
+        },
+        {
+          "sourcePath": "bun.lock",
+          "destination": "packages/core/bun.lock",
+          "sha256": "71495b0dbb4c0bd8a8b140504c77dde2f14cdae4dc2aa8e51f1e9fd49bee700a"
+        },
+        {
+          "sourcePath": "bunfig.toml",
+          "destination": "packages/core/bunfig.toml",
+          "sha256": "5da4d7eb4d1e5c1c37d487034e56773e8e1f568daec675b114c5257942f48342"
+        },
+        {
+          "sourcePath": "package.json",
+          "destination": "packages/core/package.json",
+          "sha256": "d958aeaecfbfa8804843596d1324d4674b613af1c6b8f5be4ca1010870291b8c"
+        },
+        {
+          "sourcePath": "project.v1.yaml",
+          "destination": "packages/core/project.v1.yaml",
+          "sha256": "60e67b9ec2844b9b8121f2e67d12d351dafb852403c6a856baa093115d866f09"
+        },
+        {
+          "sourcePath": "src/canonicalization.ts",
+          "destination": "packages/core/src/canonicalization.ts",
+          "sha256": "5cb82bde0ba2722e0e527db4180f75a4ea7c5295b6a2eecfe43ff63f48deb3f0"
+        },
+        {
+          "sourcePath": "src/collab-document.test.ts",
+          "destination": "packages/core/src/collab-document.test.ts",
+          "sha256": "a13f00ce1de894632ae673a67faf060c4b4b558fb52535dacae44e4b08b3c974"
+        },
+        {
+          "sourcePath": "src/collab-document.ts",
+          "destination": "packages/core/src/collab-document.ts",
+          "sha256": "0b198fd40ce57d0398df85cb7c6bb3dea7b062297dce4d541a579d339b8ae03b"
+        },
+        {
+          "sourcePath": "src/crypto-types.ts",
+          "destination": "packages/core/src/crypto-types.ts",
+          "sha256": "770c2a1d75fdafaa6870b26b45d5b9c3a0578326b434b6d81f3b5a4fc35e4149"
+        },
+        {
+          "sourcePath": "src/index.ts",
+          "destination": "packages/core/src/index.ts",
+          "sha256": "9ed91d383736e68aa212e7be91829d697fda4073f4188254949303c36c200722"
+        },
+        {
+          "sourcePath": "src/sealed-collab-document.test.ts",
+          "destination": "packages/core/src/sealed-collab-document.test.ts",
+          "sha256": "836c3f3c5756607043fbb421fc643c64fb007bf64797b6c2a186e5c6b048bbec"
+        },
+        {
+          "sourcePath": "src/sealed-collab-document.ts",
+          "destination": "packages/core/src/sealed-collab-document.ts",
+          "sha256": "32e647801ae0c4fbffd8b7a14f4cdb6defe3eb1820854e7f033b98d8fd182239"
+        },
+        {
+          "sourcePath": "src/test-identity-provider.ts",
+          "destination": "packages/core/src/test-identity-provider.ts",
+          "sha256": "5c8c2dc51c8b438a8b90964cc8ec17211d0341eab1507c45b5de66beae4b63e1"
+        },
+        {
+          "sourcePath": "tsconfig.json",
+          "destination": "packages/core/tsconfig.json",
+          "sha256": "137bfb257c352a95fc464c9b3f07051f950378cc00e2f79a28dd3d79f80040a5"
+        }
+      ]
+    },
+    {
+      "source": "restored-latest/collab-relay",
+      "revision": "ffc4d7bab7bc5cbc17167ee5752526b3db78ae34",
+      "archiveSha256": null,
+      "files": [
+        {
+          "sourcePath": ".gitignore",
+          "destination": "packages/relay/.gitignore",
+          "sha256": "19b23de57a80020117177f6f3a34b5b5ce98c2623a8e8e6e211453bbf6458bfa"
+        },
+        {
+          "sourcePath": "LICENSES/EUPL-1.2.txt",
+          "destination": "packages/relay/LICENSES/EUPL-1.2.txt",
+          "sha256": "57fb42fbcd0b037ce528ed8f72f1ec095d67bc6825ecf1448ff39be1fe68a4b4"
+        },
+        {
+          "sourcePath": "README.md",
+          "destination": "packages/relay/README.md",
+          "sha256": "03276196d303e2518d974920171d043bec1111ca5fa33346464002bef6b6469a"
+        },
+        {
+          "sourcePath": "REUSE.toml",
+          "destination": "packages/relay/REUSE.toml",
+          "sha256": "dcc9eac5c21c105e07886b4e77a67138cbf409a148901652727c2150fc2b74de"
+        },
+        {
+          "sourcePath": "biome.json",
+          "destination": "packages/relay/biome.json",
+          "sha256": "aef412798f637cd348188f1071fb1ea7c01c5e4bb3de8cd878a25f4dd4a5173d"
+        },
+        {
+          "sourcePath": "bun.lock",
+          "destination": "packages/relay/bun.lock",
+          "sha256": "ae352cebbd84a4ef6d47d28720b7b454cb26c13ca12ade9709534e1970bd3d5f"
+        },
+        {
+          "sourcePath": "bunfig.toml",
+          "destination": "packages/relay/bunfig.toml",
+          "sha256": "5da4d7eb4d1e5c1c37d487034e56773e8e1f568daec675b114c5257942f48342"
+        },
+        {
+          "sourcePath": "package.json",
+          "destination": "packages/relay/package.json",
+          "sha256": "5327be8c44f1a682f83902ee66c23bde232736152a293734eda4f64e4f041350"
+        },
+        {
+          "sourcePath": "project.v1.yaml",
+          "destination": "packages/relay/project.v1.yaml",
+          "sha256": "6c5355df97f7af36a5317653e2c4b27771d070d01ac84ba5f2369268eaac4e6c"
+        },
+        {
+          "sourcePath": "src/index.ts",
+          "destination": "packages/relay/src/index.ts",
+          "sha256": "2b604c11522a322974a07f2a52f0f2f17f0f1dbf45f0a309028e43e73b39f35d"
+        },
+        {
+          "sourcePath": "src/relay-server.test.ts",
+          "destination": "packages/relay/src/relay-server.test.ts",
+          "sha256": "91b9ea017f2117b6f556551b36cb1f181ed670031a5ae182bbdc84d0d5ccff60"
+        },
+        {
+          "sourcePath": "src/relay-server.ts",
+          "destination": "packages/relay/src/relay-server.ts",
+          "sha256": "59fabdcc1415692c917d5e8df29e21c4bbfb6870fec00594b7dce500880e5f08"
+        },
+        {
+          "sourcePath": "src/server.ts",
+          "destination": "packages/relay/src/server.ts",
+          "sha256": "57392fae6a10ed9395aabc2041db948d10e10da539592eb9171546591c7027bb"
+        },
+        {
+          "sourcePath": "tsconfig.json",
+          "destination": "packages/relay/tsconfig.json",
+          "sha256": "137bfb257c352a95fc464c9b3f07051f950378cc00e2f79a28dd3d79f80040a5"
+        }
+      ]
+    }
+  ],
+  "sourceWorkflowsActivated": false,
+  "sourceAgentInstructionsImported": false,
+  "qualification": "pending local migration checks"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "local-source-composition-not-registry-release",
+  "originalInputs": "code-recovery-provenance.json",
+  "adaptedFiles": [
+    {
+      "path": "packages/core/package.json",
+      "originalSha256": "d958aeaecfbfa8804843596d1324d4674b613af1c6b8f5be4ca1010870291b8c",
+      "currentSha256": "b3bc552af6c8522fd3cef71d9984501b75d7b05a34988b115eded15d644f0387"
+    },
+    {
+      "path": "packages/relay/package.json",
+      "originalSha256": "5327be8c44f1a682f83902ee66c23bde232736152a293734eda4f64e4f041350",
+      "currentSha256": "1c5e1ad5f536971a7bbdf9083c3ea43e29de580c1031b5c0ee661ce669d26a03"
+    }
+  ],
+  "notes": [
+    "Existing APIs and package versions retained.",
+    "Local dependency paths are temporary composition inputs; distribution pins remain to finalize.",
+    "No historical deployment workflows activated."
+  ]
+}

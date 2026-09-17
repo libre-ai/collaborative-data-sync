@@ -1,0 +1,15 @@
+{
+  "name": "@libre-ai/collaborative-data-sync",
+  "private": true,
+  "license": "EUPL-1.2",
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "bun run --filter \"./packages/*\" test",
+    "typecheck": "bun run --filter \"./packages/*\" typecheck",
+    "lint": "bun run --filter \"./packages/*\" lint",
+    "check": "bun run --filter \"./packages/*\" check"
+  }
+}

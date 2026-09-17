@@ -16,6 +16,6 @@ Collaborative applications need to exchange document changes while keeping track
 
 ## Availability
 
-This repository currently contains documentation only; no installable tool is available.
+Source code and tests are available in this repository; no package is published to a registry.
 
 Explore the [Libre AI project catalogue](https://github.com/libre-ai/.github/blob/main/profile/README.md).
