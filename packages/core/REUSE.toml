@@ -2,7 +2,7 @@
 version = 1
 SPDX-PackageName = "collab-core"
 SPDX-PackageSupplier = "Libre AI <https://github.com/libre-ai>"
-SPDX-PackageDownloadLocation = "https://github.com/libre-ai/collab-core"
+SPDX-PackageDownloadLocation = "https://github.com/libre-ai/collaborative-data-sync"
 
 [[annotations]]
 path = ["**"]

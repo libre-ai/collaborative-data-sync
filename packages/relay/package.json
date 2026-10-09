@@ -16,7 +16,8 @@
   "homepage": "https://libre-ai.fr",
   "repository": {
     "type": "git",
-    "url": "https://github.com/libre-ai/collab-relay.git"
+    "url": "https://github.com/libre-ai/collaborative-data-sync.git",
+    "directory": "packages/relay"
   },
   "publishConfig": {
     "access": "public"
@@ -41,9 +42,6 @@
     "serve": "bun run check:bun:runtime && bun src/server.ts"
   },
   "packageManager": "bun@1.4.0-canary.1",
-  "overrides": {
-    "fast-uri": "4.1.4"
-  },
   "devDependencies": {
     "@libre-ai/governance": "file:../../../project-governance",
     "@biomejs/biome": "2.5.3",
